@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mindful Minutes - Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; margin: 40px auto; padding: 0 16px; max-width: 860px; color: #111; }
+    h1 { font-size: 32px; margin: 0 0 8px; }
+    h2 { font-size: 18px; margin-top: 24px; }
+    p, li { font-size: 16px; }
+    .muted { color: #555; }
+    .card { background: #f6f7f9; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; }
+    a { color: #0a66c2; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #e5e7eb; color: #555; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Mindful Minutes</p>
+
+  <div class="card">
+    <p><strong>Short version:</strong> Mindful Minutes does not collect, store, or share personal data. Your mindful minutes data stays on your device in Apple Health.</p>
+  </div>
+
+  <h2>Data Collection</h2>
+  <p>Mindful Minutes does not collect personal information, does not create user accounts, and does not transmit your data to any servers.</p>
+
+  <h2>Apple Health (HealthKit)</h2>
+  <p>Mindful Minutes can read and write mindful minutes using Apple Health (HealthKit), only if you grant permission.</p>
+  <ul>
+    <li><strong>Read:</strong> Used to display your mindful minutes by day and month.</li>
+    <li><strong>Write:</strong> Used when you manually add a mindful session from within the app.</li>
+  </ul>
+  <p>Mindful Minutes does not store your Health data outside of Apple Health and does not send Health data off your device.</p>
+
+  <h2>Analytics and Tracking</h2>
+  <p>Mindful Minutes does not use third-party analytics, advertising SDKs, or tracking.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this policy, contact: <a href="mailto:mindfulminutes_support@icloud.com">mindfulminutes_support@icloud.com</a></p>
+
+  <footer>
+    <div>Last updated: <span id="date"></span></div>
+  </footer>
+
+  <script>
+    // Set "Last updated" to today's date (simple + honest for a new page)
+    const d = new Date();
+    document.getElementById("date").textContent =
+      d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+  </script>
+</body>
+</html>
